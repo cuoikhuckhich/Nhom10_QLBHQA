@@ -56,5 +56,31 @@ namespace QLyBanHangQuanAo
             Class.Functions.Dungketnoi();
             Application.Exit();
         }
+
+        private void danhMụcToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void màuToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            FrmMau m = new FrmMau();
+            m.MdiParent = this;
+            m.Show();
+        }
+
+        private void đốiTượngToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            FrmDoiTuong dt = new FrmDoiTuong();
+            dt.MdiParent = this;
+            dt.Show();
+        }
+
+        private void mùaToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            FrmMua M = new FrmMua();
+            M.MdiParent = this;
+            M.Show();
+        }
     }
 }

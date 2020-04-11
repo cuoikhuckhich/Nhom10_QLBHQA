@@ -66,12 +66,12 @@ namespace QLyBanHangQuanAo
                 MessageBox.Show("Bạn chưa chọn bản ghi nào: ", "Thông Báo", MessageBoxButtons.OK, MessageBoxIcon.Information);
                 return;
             }
-          /*  if (txtTenco.Text.Trim().Length == 0)
+            if (txtTenco.Text.Trim().Length == 0)
             {
                 MessageBox.Show("Bạn cần nhập tên cỡ ", "Thông Báo ", MessageBoxButtons.OK, MessageBoxIcon.Warning);
                 txtTenco.Focus();
                 return;
-            }*/
+            }
             sql = "UPDATE Co SET Maco=N'" + txtMaco.Text.Trim() + "',Tenco=N'" + txtTenco.Text.Trim() + "' Where (Maco=N'" + txtMaco.Text.Trim() + "')";
             Class.Functions.RunSql(sql);
             loadDataGridView();
