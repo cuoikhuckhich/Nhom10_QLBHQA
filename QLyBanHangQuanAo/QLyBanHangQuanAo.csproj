@@ -89,6 +89,12 @@
     <Compile Include="FrmHDNhap.Designer.cs">
       <DependentUpon>FrmHDNhap.cs</DependentUpon>
     </Compile>
+    <Compile Include="frmKhachHang.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmKhachHang.designer.cs">
+      <DependentUpon>frmKhachHang.cs</DependentUpon>
+    </Compile>
     <Compile Include="FrmMau.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -100,6 +106,18 @@
     </Compile>
     <Compile Include="FrmMua.Designer.cs">
       <DependentUpon>FrmMua.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmNhaCC.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmNhaCC.designer.cs">
+      <DependentUpon>frmNhaCC.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmNoiSX.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmNoiSX.designer.cs">
+      <DependentUpon>frmNoiSX.cs</DependentUpon>
     </Compile>
     <Compile Include="FrmSanPham.cs">
       <SubType>Form</SubType>
@@ -136,11 +154,20 @@
     <EmbeddedResource Include="FrmHDNhap.resx">
       <DependentUpon>FrmHDNhap.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="frmKhachHang.resx">
+      <DependentUpon>frmKhachHang.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="FrmMau.resx">
       <DependentUpon>FrmMau.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="FrmMua.resx">
       <DependentUpon>FrmMua.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmNhaCC.resx">
+      <DependentUpon>frmNhaCC.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmNoiSX.resx">
+      <DependentUpon>frmNoiSX.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="FrmSanPham.resx">
       <DependentUpon>FrmSanPham.cs</DependentUpon>

@@ -103,5 +103,26 @@ namespace QLyBanHangQuanAo
             Hd.MdiParent = this;
             Hd.Show();
         }
+
+        private void kháchHàngToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            frmKhachHang cl = new frmKhachHang();
+            cl.MdiParent = this;
+            cl.Show();
+        }
+
+        private void nhàCungCấpToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            frmNhaCC cl = new frmNhaCC();
+            cl.MdiParent = this;
+            cl.Show();
+        }
+
+        private void nơiSảnXuấtToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            frmNoiSX cl = new frmNoiSX();
+            cl.MdiParent = this;
+            cl.Show();
+        }
     }
 }
