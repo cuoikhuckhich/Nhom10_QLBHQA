@@ -59,6 +59,12 @@
     <Compile Include="FrmChatLieu.Designer.cs">
       <DependentUpon>FrmChatLieu.cs</DependentUpon>
     </Compile>
+    <Compile Include="FrmChiTietHDBan.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmChiTietHDBan.Designer.cs">
+      <DependentUpon>FrmChiTietHDBan.cs</DependentUpon>
+    </Compile>
     <Compile Include="FrmCo.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -70,6 +76,18 @@
     </Compile>
     <Compile Include="FrmDoiTuong.Designer.cs">
       <DependentUpon>FrmDoiTuong.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmHDB.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmHDB.Designer.cs">
+      <DependentUpon>FrmHDB.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmHDNhap.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmHDNhap.Designer.cs">
+      <DependentUpon>FrmHDNhap.cs</DependentUpon>
     </Compile>
     <Compile Include="FrmMau.cs">
       <SubType>Form</SubType>
@@ -103,11 +121,20 @@
     <EmbeddedResource Include="FrmChatLieu.resx">
       <DependentUpon>FrmChatLieu.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="FrmChiTietHDBan.resx">
+      <DependentUpon>FrmChiTietHDBan.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="FrmCo.resx">
       <DependentUpon>FrmCo.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="FrmDoiTuong.resx">
       <DependentUpon>FrmDoiTuong.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmHDB.resx">
+      <DependentUpon>FrmHDB.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmHDNhap.resx">
+      <DependentUpon>FrmHDNhap.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="FrmMau.resx">
       <DependentUpon>FrmMau.cs</DependentUpon>
