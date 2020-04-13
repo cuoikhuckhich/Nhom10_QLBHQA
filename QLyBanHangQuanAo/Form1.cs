@@ -7,6 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using System.Data.SqlClient;
 
 namespace QLyBanHangQuanAo
 {
@@ -123,6 +124,27 @@ namespace QLyBanHangQuanAo
             frmNoiSX cl = new frmNoiSX();
             cl.MdiParent = this;
             cl.Show();
+        }
+
+        private void côngViệcToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            frmCongViec cv = new frmCongViec();
+            cv.MdiParent = this;
+            cv.Show();
+        }
+
+        private void chiTiếtHDNhậpToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            frmChiTietHDNhap ctn = new frmChiTietHDNhap();
+            ctn.MdiParent = this;
+            ctn.Show();
+        }
+
+        private void nhânViênToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            frmNhanVien nv = new frmNhanVien();
+            nv.MdiParent = this;
+            nv.Show();
         }
     }
 }
