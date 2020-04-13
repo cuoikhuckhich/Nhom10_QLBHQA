@@ -19,7 +19,7 @@ namespace QLyBanHangQuanAo.Class
 
         public static void ketnoi()
         {
-            stringcon = "Data Source=.;Initial Catalog=QlyBanHangQuanAo;Integrated Security=True";
+            stringcon = "Data Source=DESKTOP-ENML23K\\SQLEXPRESS;Initial Catalog=QlyBanHangQuanAo;Integrated Security=True";
             con = new SqlConnection();
             con.ConnectionString = stringcon;
             con.Open();
@@ -60,7 +60,7 @@ namespace QLyBanHangQuanAo.Class
               {
                   cmd.ExecuteNonQuery();
               }
-              catch (System.Exception ex)
+              catch (System.Exception )
               {
                   MessageBox.Show("Đã xảy ra xung đột dữ liệu đang được dùng không thể xóa,sửa...", "Thông Báo", MessageBoxButtons.OK, MessageBoxIcon.Stop);
               }
@@ -82,5 +82,23 @@ namespace QLyBanHangQuanAo.Class
        }
 
 
-    }
+        public static bool IsDate(string d)
+        {
+            string[] parts = d.Split('/');
+            if ((Convert.ToInt32(parts[0]) >= 1) && (Convert.ToInt32(parts[0]) <= 31) &&
+(Convert.ToInt32(parts[1]) >= 1) && (Convert.ToInt32(parts[1]) <= 12) && (Convert.ToInt32(parts[2]) >= 1900))
+                return true;
+            else
+                return false;
+        }
+        public static string ConvertDateTime(string d)
+        {
+            string[] parts = d.Split('/');
+            string dt = String.Format("{0}/{1}/{2}", parts[1], parts[0], parts[2]);
+            return dt;
+        }
+
+
+   
+       }
 }
