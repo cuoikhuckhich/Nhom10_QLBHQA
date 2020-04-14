@@ -19,7 +19,7 @@ namespace QLyBanHangQuanAo.Class
 
         public static void ketnoi()
         {
-            stringcon = "Data Source=DESKTOP-ENML23K\\SQLEXPRESS;Initial Catalog=QlyBanHangQuanAo;Integrated Security=True";
+            stringcon = "Data Source=.;Initial Catalog=QlyBanHangQuanAo;Integrated Security=True";
             con = new SqlConnection();
             con.ConnectionString = stringcon;
             con.Open();

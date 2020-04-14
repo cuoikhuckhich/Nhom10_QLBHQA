@@ -65,7 +65,7 @@ namespace QLyBanHangQuanAo
                 txtDienThoai.Focus();
                 return;
             }
-            sql = "SELECT MaKhach FROM KhachHang WHERE MaKhach=N'" + txtMaKH.Text.Trim() + "'";
+            sql = "SELECT MaKhach FROM KhachHang WHERE Makhach=N'" + txtMaKH.Text.Trim() + "'";
             if (Class.Functions.CheckKey(sql))
             {
                 MessageBox.Show("Mã khách hàng này đã tồn tại, bạn phải chọn mã khách hàng khác", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Information);

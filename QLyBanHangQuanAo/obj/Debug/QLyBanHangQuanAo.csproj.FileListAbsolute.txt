@@ -97,3 +97,6 @@ C:\Users\HP\Desktop\nf\Nhom10_QLBHQA\QLyBanHangQuanAo\obj\Debug\QLyBanHangQuanAo
 C:\Users\HP\Desktop\nf\Nhom10_QLBHQA\QLyBanHangQuanAo\bin\Debug\QLyBanHangQuanAo.exe.config
 C:\Users\HP\Desktop\nf\Nhom10_QLBHQA\QLyBanHangQuanAo\bin\Debug\QLyBanHangQuanAo.exe
 C:\Users\HP\Desktop\nf\Nhom10_QLBHQA\QLyBanHangQuanAo\bin\Debug\QLyBanHangQuanAo.pdb
+C:\Users\HP\Desktop\git\Nhom10_QLBHQA\QLyBanHangQuanAo\obj\Debug\QLyBanHangQuanAo.frmChiTietHDNhap.resources
+C:\Users\HP\Desktop\git\Nhom10_QLBHQA\QLyBanHangQuanAo\obj\Debug\QLyBanHangQuanAo.frmCongViec.resources
+C:\Users\HP\Desktop\git\Nhom10_QLBHQA\QLyBanHangQuanAo\obj\Debug\QLyBanHangQuanAo.frmNhanVien.resources
